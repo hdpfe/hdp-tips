@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>hdp-tips Demo</title>
+</head>
+<body>
+    <button class="j-btn" data-type="info">info</button>
+    <button class="j-btn" data-type="success">success</button>
+    <button class="j-btn" data-type="fail">fail</button>
+    <button class="j-btn" data-type="loading">showLoading</button>
+    <button class="j-btn" data-type="hide">hide</button>
+    
+    <script src="./demo/jquery-1.10.2.min.js"></script>
+    <script src="./dist/hdp-tips.js"></script>
+    <script>
+    $(function(){
+        $('.j-btn').on('click',function(){
+            var type = $(this).data('type');
+            hdpTips[type].call();
+        })
+    })
+    </script>
+</body>
+</html>

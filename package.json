@@ -1,0 +1,25 @@
+{
+  "name": "hdp-tips",
+  "version": "1.0.0",
+  "description": "Tips popup",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "ejs-compiled-loader": "^2.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdpfe/hdp-tips.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdpfe/hdp-tips/issues"
+  },
+  "homepage": "https://github.com/hdpfe/hdp-tips#readme"
+}
